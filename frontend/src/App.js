@@ -16,9 +16,10 @@ import ProfileScreen from './screens/ProfileScreen';
 import OrdersScreen from './screens/OrdersScreen';
 
 function App() {
+  
   const userSignin = useSelector((state) => state.userSignin);
   const { userInfo } = userSignin;
-
+  
   const openMenu = () => {
     document.querySelector('.sidebar').classList.add('open');
   };
@@ -31,10 +32,11 @@ function App() {
         <header className="header">
           <div className="brand">
             <button onClick={openMenu}>&#9776;</button>
-            <Link to="/">amazona</Link>
+            <Link to="/">Store</Link>
           </div>
           <div className="header-links">
-            <a href="cart.html">Cart</a>
+            <Link to="/cart">Cart</Link>
+            
             {userInfo ? (
               <Link to="/profile">{userInfo.name}</Link>
             ) : (

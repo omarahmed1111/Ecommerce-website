@@ -86,7 +86,7 @@ function ProductScreen(props) {
                 <li>Price: {product.price}</li>
                 <li>
                   Status:{' '}
-                  {product.countInStock > 0 ? 'In Stock' : 'Unavailable.'}
+                  {product.countInStock > 0 ? 'In Stock' : 'Out of stock.'}
                 </li>
                 <li>
                   Qty:{' '}
@@ -126,7 +126,7 @@ function ProductScreen(props) {
                   <div>
                     <Rating value={review.rating}></Rating>
                   </div>
-                  <div>{review.createdAt.substring(0, 10)}</div>
+                  
                   <div>{review.comment}</div>
                 </li>
               ))}
