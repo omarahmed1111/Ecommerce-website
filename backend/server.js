@@ -8,7 +8,7 @@ import productRoute from './routes/productRoute';
 import orderRoute from './routes/orderRoute';
 import uploadRoute from './routes/uploadRoute';
 
-const mongodbUrl = `mongodb+srv://omar2:tYTyb5e1BtDLOOqI@cluster0-qbuwy.mongodb.net/store?retryWrites=true&w=majority`;
+const mongodbUrl = config.MONGODB_URL;
 mongoose
   .connect(mongodbUrl, {
     useNewUrlParser: true,
