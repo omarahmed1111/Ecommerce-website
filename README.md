@@ -1,6 +1,5 @@
 # Project Description
-An Ecommerce website for buying clothes. The structure of the website is done as Amazon website. Long story short, It is an Amazon clone.
-# Website
+An Ecommerce website for buying clothes. The website contains login authentication developed using JWT. THe website uses RESTful APIs. The website cool features like cart and the ability for checkout and payment using paypal API.
 https://ecommerce-my-store.herokuapp.com/
 
 # Development Technologies
