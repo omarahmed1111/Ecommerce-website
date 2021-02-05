@@ -2,6 +2,11 @@
 An Ecommerce website for buying clothes. The website contains login authentication developed using JWT. THe website uses RESTful APIs. The website cool features like cart and the ability for checkout and payment using paypal API.
 https://ecommerce-my-store.herokuapp.com/
 
+
+# Demo video
+
+https://www.youtube.com/watch?v=sXuTEf4R4gE
+
 # Development Technologies
 * HTML5
 * CSS3
@@ -60,6 +65,3 @@ npm install
 npm start
 ```
 
-# Illustrative video
-
-https://www.youtube.com/watch?v=sXuTEf4R4gE
